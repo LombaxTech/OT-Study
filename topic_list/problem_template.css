@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding:0;
-    background: #a7f17c;
+    background: #d1f7bc;
 }
 main{
     width: 90%;
@@ -32,9 +32,17 @@ main{
 .pageNavigation a{
     color:black;
 }
-
+.problem{
+    padding:10px;
+    background: rgb(235, 252, 205);
+    border-radius: 10px;
+    border:1px dotted rgb(23, 102, 65);
+    margin-bottom: 10px;
+}
 .questionTitle{
     text-decoration: underline;
+    padding:0;
+    margin:0;
 }
 .showAnswer{
     background: #c2fda0;
