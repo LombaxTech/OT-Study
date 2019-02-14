@@ -15,6 +15,13 @@ main{
     text-align: center;
 }
 .pageNavigation{
+    background: rgb(231, 231, 231);
+    border:solid 1px darkgray;
+    padding:15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.navigation{
     list-style: none;
     margin: 0;
     padding:0;
@@ -25,11 +32,11 @@ main{
     padding:0;
     margin:15px 0;
 }
-.pageNavigation li{
+.navigation li{
     float: left;
     margin:5px;
 }
-.pageNavigation a{
+.navigation a{
     color:black;
 }
 .problem{
@@ -38,6 +45,9 @@ main{
     border-radius: 10px;
     border:1px dotted rgb(23, 102, 65);
     margin-bottom: 10px;
+}
+.problem:nth-child(2n+1){
+    background:rgb(197, 234, 247); 
 }
 .questionTitle{
     text-decoration: underline;
