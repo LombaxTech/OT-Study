@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    padding:0;
+    background: rgb(235, 231, 195);
+    /* background: #b4ee92; */
+}
+main{
+    width: 90%;
+    height:fit-content;
+    padding: 15px;
+    background: white;
+    margin: 10px auto;
+}
+main ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+main ul li{
+    background: rgb(250, 246, 213);
+    /* background: #aaee83; */
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px 0;
+    border:grey 1px solid;
+}
+main ul li p{
+    display: none;
+}
+
+main ul li:hover p{
+    display:block;
+    color: grey;
+    font-size: 0.9em;
+}
+main ul li:hover{
+    /* background: rgb(238, 229, 145); */
+    background: #aaee83;
+}
+main ul li a{
+    text-decoration: none;
+    color: black;
+}
+main ul li a:visited{
+    text-decoration: none;
+    color: black;
+}
+main ul li a:hover{
+    text-decoration: underline;
+}
