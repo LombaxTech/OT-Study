@@ -47,7 +47,7 @@ main{
     margin-bottom: 10px;
 }
 .problem:nth-child(2n){
-    background:rgb(197, 234, 247); 
+    background:rgb(206, 234, 245); 
 }
 .questionTitle{
     text-decoration: underline;
@@ -60,6 +60,9 @@ main{
     padding:5px 25px;
     border-radius: 5px;
     border: 1px grey dotted;
+}
+.problem:nth-child(2n)> .showAnswer{
+    background: rgb(121, 207, 238);
 }
 .showAnswer:hover{
     cursor: pointer;
